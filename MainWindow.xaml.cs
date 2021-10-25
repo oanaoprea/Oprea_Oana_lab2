@@ -35,7 +35,7 @@ namespace Oprea_Oana_lab2
         private void frmMain_Loaded(object sender, RoutedEventArgs e)
         {
             // tema de laborator : instantiem un obiect din clasa DoughnutMachine
-            DoughnutMachine myDoughnutMachine = new DoughnutMachine();
+            myDoughnutMachine = new DoughnutMachine();
 
             myDoughnutMachine.DoughnutComplete += new
             DoughnutMachine.DoughnutCompleteDelegate(DoughnutCompleteHandler);
